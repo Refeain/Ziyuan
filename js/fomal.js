@@ -3174,7 +3174,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://picbed.cosn.cc/img/light-background.png);
+    --default-bg: url(https://pic.cartafi.org/safe/SXdC5jcCYP);
     --darkmode-bg:url(https://picbed.cosn.cc/img/dark-background.jpg);
     --mobileday-bg: url(https://picbed.cosn.cc/img/snow.jpg);
     --mobilenight-bg: url(https://picbed.cosn.cc/img/mb8.jpg);
