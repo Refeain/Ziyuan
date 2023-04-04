@@ -324,7 +324,9 @@ function getWeibo() {
     }
     html += '</div>'
     document.getElementById('weibo-container').innerHTML = html
-  })
+  }).catch(function (error) {
+    console.log(error);
+  });
 }
 
 /* 微博热搜 end */
