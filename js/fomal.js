@@ -3626,4 +3626,4 @@ function switchPostChart() {
     }
   }
 }
-document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })
+
